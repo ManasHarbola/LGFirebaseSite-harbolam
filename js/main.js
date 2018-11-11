@@ -18,7 +18,7 @@ function logIn()
     alert("Sign In Successful! Google Account Linked");
 
   }).catch(function(err){
-    alert("Sign in failedx");
+    alert("Sign in failed");
     alert(err);
   })
 
