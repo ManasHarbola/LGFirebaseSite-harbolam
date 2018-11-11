@@ -19,7 +19,7 @@ function logIn()
 
   }).catch(function(err){
     alert("Sign in failed");
-    //alert(err);
+    alert(err);
   })
 
 }
